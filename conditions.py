@@ -5,11 +5,11 @@ Condition:
 * Age 18 or above → Eligible to vote
 * Otherwise → Not eligible to vote.
 """
-# age = int(input("Enter your age:"))
-# if age >= 18:
-#     print("Eligible to vote")
-# else:
-#     print("Not eligible to vote")
+age = int(input("Enter your age:"))
+if age >= 18:
+    print("Eligible to vote")
+else:
+    print("Not eligible to vote")
 
 """
 # Question 2 Write a Python program to take a number as input and check whether the number is positive or negative.
@@ -17,11 +17,11 @@ Condition:
 * Number greater than 0 → Positive number
 * Otherwise → Negative number.
 """
-# num = float(input("Enter number:"))
-# if num > 0:
-#     print("Positive number")
-# else:
-#     print("Negative number")
+num = float(input("Enter number:"))
+if num > 0:
+    print("Positive number")
+else:
+    print("Negative number")
 
 """
 # Question 3 Write a Python program to take a number as input and check whether the number is even or odd.
@@ -29,11 +29,11 @@ Condition:
 * Number divisible by 2 → Even number
 * Otherwise → Odd number.
 """
-# num = int(input("Enter number:"))
-# if num%2==0:
-#     print("Number is even")
-# else: 
-#     print("Number is odd")
+num = int(input("Enter number:"))
+if num%2==0:
+    print("Number is even")
+else: 
+    print("Number is odd")
 
 """
 # Question 4 Write a Python program to take a user's password as input and check whether the password is correct or not.
@@ -41,12 +41,12 @@ Condition:
 * If password is `"python123"` → Login successful
 * Otherwise → Incorrect password.
 """
-# password = str(input("Enter your correct password:"))
-# if password == "python123":
-#     print("Login successful")
+password = str(input("Enter your correct password:"))
+if password == "python123":
+    print("Login successful")
 
-# else:
-#     print("Incorrect Password")
+else:
+    print("Incorrect Password")
 
 """
 # Question 5 Write a Python program to take a student's marks as input and check whether the student is pass or fail.
@@ -54,11 +54,11 @@ Condition:
 * Marks 33 or above → Pass
 * Otherwise → Fail.
 """
-# marks = float(input("Enter marks:"))
-# if marks >= 33:
-#     print("Pass")
-# else:
-#     print("Fail")
+marks = float(input("Enter marks:"))
+if marks >= 33:
+    print("Pass")
+else:
+    print("Fail")
 
 """
 # Question 6 Write a Python program to take two numbers as input and print the greater number.
@@ -66,101 +66,101 @@ Condition:
 * If first number is greater → print first number
 * Otherwise → print second number.
 """
-# a = float(input("Enter first number:"))
-# b = float(input("Enter second number:"))
+a = float(input("Enter first number:"))
+b = float(input("Enter second number:"))
 
-# if a>b:
-#     print(a)
-# else:
-#     print(b)
+if a>b:
+    print(a)
+else:
+    print(b)
 
 """
 # Question 7 Write a Python program to take a user's age as input and check:
 * If age is 18 or above → Adult
 * Otherwise → Minor.
 """
-# age = int(input("Enter your age:"))
-# if age >= 18:
-#     print("You are Adult")
-# else:
-#     print("You are Minor")
+age = int(input("Enter your age:"))
+if age >= 18:
+    print("You are Adult")
+else:
+    print("You are Minor")
 
 """
 # Question 8 Write a Python program to take a user's username as input and check:
 * If username is `"admin"` → Access granted
 * Otherwise → Access denied.
 """
-# username = str(input("Enter username:"))
-# if username == "admin":
-#     print("Access granted")
-# else:
-#     print("Access denied")
+username = str(input("Enter username:"))
+if username == "admin":
+    print("Access granted")
+else:
+    print("Access denied")
 
 """
 # Question 9 Write a Python program to take a number as input and check:
 * If the number is greater than 100 → Print `"Big number"`
 * Otherwise → Print `"Small number"`
 """
-# number = float(input("Enter number:"))
-# if number > 100:
-#     print("Big number")
-# else:
-#     print("Small number")
+number = float(input("Enter number:"))
+if number > 100:
+    print("Big number")
+else:
+    print("Small number")
 
 """
 # Question 10 Write a Python program to take a temperature as input and check:
 * If temperature is greater than 30 → Print `"Hot weather"`
 * Otherwise → Print `"Normal weather"`
 """
-# temperature = float(input("Enter temperature:"))
-# if temperature > 30:
-#     print("Hot weather")
-# else:
-#     print("Normal weather")
+temperature = float(input("Enter temperature:"))
+if temperature > 30:
+    print("Hot weather")
+else:
+    print("Normal weather")
 
 """
 # Question 11 Write a Python program to take a user's balance as input and check:
 * If balance is greater than or equal to 1000 → Print `"Transaction successful"`
 * Otherwise → Print `"Insufficient balance"`
 """
-# balance = float(input("Enter balance:"))
-# if balance >=1000:
-#     print("Transaction successful")
-# else:
-#     print("Insufficient balance")
+balance = float(input("Enter balance:"))
+if balance >=1000:
+    print("Transaction successful")
+else:
+    print("Insufficient balance")
 
 """
 # Question 12 Write a Python program to take a user's exam percentage as input and check:
 * If percentage is greater than or equal to 75 → Print `"Distinction"`
 * Otherwise → Print `"No Distinction"`
 """
-# percentage = float(input("Enter your percentage:"))
-# if percentage >= 75:
-#     print("Distinction")
-# else:
-#     print("No Distinction")
+percentage = float(input("Enter your percentage:"))
+if percentage >= 75:
+    print("Distinction")
+else:
+    print("No Distinction")
 
 """
 # Question 13 Write a Python program to take a user's speed as input and check:
 * If speed is greater than 80 → Print `"Overspeeding"`
 * Otherwise → Print `"Normal speed"`
 """
-# speed = int(input("Enter speed:"))
-# if speed > 80:
-#     print("Overspeeding")
-# else:
-#     print("Normal speed")
+speed = int(input("Enter speed:"))
+if speed > 80:
+    print("Overspeeding")
+else:
+    print("Normal speed")
 
 """
 # Question 14 Write a Python program to take a user's shopping amount as input and check:
 * If amount is greater than or equal to 5000 → Print `"Discount applied"`
 * Otherwise → Print `"No discount"`
 """
-# shopping_amount = float(input("Enter shopping amount:"))
-# if shopping_amount >= 5000:
-#     print("Discount applied")
-# else:
-#     print("No discount")
+shopping_amount = float(input("Enter shopping amount:"))
+if shopping_amount >= 5000:
+    print("Discount applied")
+else:
+    print("No discount")
 
 """
 
@@ -169,12 +169,12 @@ Condition:
 * If bill amount is greater than 2000 → Print `"High electricity bill"`
 * Otherwise → Print `"Normal electricity bill"`
 """
-# electricity_amount = float(input("Enter electricity amount:"))
+electricity_amount = float(input("Enter electricity amount:"))
 
-# if electricity_amount > 2000:
-#     print("High electricity bill")
-# else:
-#     print("Normal electricity bill")
+if electricity_amount > 2000:
+    print("High electricity bill")
+else:
+    print("Normal electricity bill")
 
 """
 # Question 16 Write a Python program for an ATM withdrawal system.
@@ -184,13 +184,13 @@ The program should:
 * If withdraw amount is less than or equal to balance → Print `"Withdrawal successful"`
 * Otherwise → Print `"Insufficient balance"`
 """
-# balance = float(input("Enter account balance:"))
-# withdraw_amount = float(input("Enter withdraw amount:"))
+balance = float(input("Enter account balance:"))
+withdraw_amount = float(input("Enter withdraw amount:"))
 
-# if withdraw_amount <= balance:
-#     print("Withdrawl Successful")
-# else:
-#     print("Insufficient balance")
+if withdraw_amount <= balance:
+    print("Withdrawl Successful")
+else:
+    print("Insufficient balance")
 
 """
 # Question 17 — Login System
@@ -204,13 +204,13 @@ Conditions:
 * Otherwise:
   * Print `"Invalid username or password"`
 """
-# username = str(input("Enter username:"))
-# password = str(input("Enter password:"))
+username = str(input("Enter username:"))
+password = str(input("Enter password:"))
 
-# if username == "admin" and password == "python123":
-#     print("Login successful")
-# else:
-#     print("Invalid username or password")
+if username == "admin" and password == "python123":
+    print("Login successful")
+else:
+    print("Invalid username or password")
 
 """
 # Question 18 — Online Food Delivery System
@@ -223,11 +223,11 @@ Conditions:
 * Otherwise:
   * Print `"Delivery charges applied"`
 """
-# food_amount = int(input("Enter amount:"))
-# if food_amount >= 500:
-#     print("Free delivery available")
-# else:
-#     print("Delivery charges applied")
+food_amount = int(input("Enter amount:"))
+if food_amount >= 500:
+    print("Free delivery available")
+else:
+    print("Delivery charges applied")
 
 """
 # Question 19 — Online Shopping Discount System
@@ -240,12 +240,12 @@ Conditions:
 * Otherwise:
   * Print `"No discount available"`
 """
-# shopping_amount = float(input("Enter shopping amount:"))
-# if shopping_amount >= 3000:
-#     print("20% discount applied")
+shopping_amount = float(input("Enter shopping amount:"))
+if shopping_amount >= 3000:
+    print("20% discount applied")
 
-# else:
-#     print("No discount available")
+else:
+    print("No discount available")
 
 """
 # Question 20 — Movie Ticket Booking System
@@ -261,15 +261,15 @@ Conditions:
   * Print `"No free popcorn"`
 Also print the total bill amount.
 """
-# number_tickets = int(input("Enter number of tickets:"))
-# price_ticket = float(input("Enter price of one ticket:"))
+number_tickets = int(input("Enter number of tickets:"))
+price_ticket = float(input("Enter price of one ticket:"))
 
-# total_amount = number_tickets * price_ticket
-# if total_amount >= 1000:
-#     print("You got a free popcorn")
-# else:
-#     print("No free popcorn")
-# print("Your total bill amount is",total_amount)
+total_amount = number_tickets * price_ticket
+if total_amount >= 1000:
+    print("You got a free popcorn")
+else:
+    print("No free popcorn")
+print("Your total bill amount is",total_amount)
 
 """
 # Question 21 — Cab Booking System
@@ -287,13 +287,13 @@ Conditions:
   * Print `"Normal ride"`
 Also print the total fare amount.
 """
-# kilometers = float(input("Enter travel distance in Kilometers:"))
-# total_fare = kilometers*15
-# if total_fare >= 500:
-#     print("Premium ride")
-# else:
-#     print("Normal ride")
-# print("Your total amount of travelling is",total_fare)
+kilometers = float(input("Enter travel distance in Kilometers:"))
+total_fare = kilometers*15
+if total_fare >= 500:
+    print("Premium ride")
+else:
+    print("Normal ride")
+print("Your total amount of travelling is",total_fare)
 
 """
 # Question 22 — Restaurant Billing System
@@ -311,17 +311,17 @@ Also print:
 * Service charge
 * Final bill amount.
 """
-# foodbill_amount = float(input("Enter food bill amount:"))
-# service_charge = 0.05*foodbill_amount
-# total_bill = foodbill_amount + service_charge
+foodbill_amount = float(input("Enter food bill amount:"))
+service_charge = 0.05*foodbill_amount
+total_bill = foodbill_amount + service_charge
 
-# if total_bill >= 2000:
-#     print("VIP customer")
-# else:
-#     print("Regular customer")
+if total_bill >= 2000:
+    print("VIP customer")
+else:
+    print("Regular customer")
 
-# print("Your service charge of total bill is",service_charge)
-# print("Your final bill including service charge is",total_bill)
+print("Your service charge of total bill is",service_charge)
+print("Your final bill including service charge is",total_bill)
 
 """
 # Question 23 — Student Grade System
@@ -338,15 +338,15 @@ Conditions:
 * Otherwise:
   * Print `"Fail"`
 """
-# marks = float(input("Enter students marks:"))
-# if marks >= 90:
-#     print("Grade A")
-# elif marks >= 75:
-#     print("Grade B")
-# elif marks >= 50:
-#     print("Grade C")
-# else:
-#     print("Fail")
+marks = float(input("Enter students marks:"))
+if marks >= 90:
+    print("Grade A")
+elif marks >= 75:
+    print("Grade B")
+elif marks >= 50:
+    print("Grade C")
+else:
+    print("Fail")
 
 """
 # Question 24 — ATM Menu System
@@ -363,15 +363,15 @@ Conditions:
 * Otherwise:
   * Print `"Invalid Option"`
 """
-# number = int(input("Enter number:"))
-# if number == 1:
-#     print("Check balance")
-# elif number == 2:
-#     print("Withdraw money")
-# elif number == 3:
-#     print("Deposit Money")
-# else:
-#     print("Invalid option")
+number = int(input("Enter number:"))
+if number == 1:
+    print("Check balance")
+elif number == 2:
+    print("Withdraw money")
+elif number == 3:
+    print("Deposit Money")
+else:
+    print("Invalid option")
 
 """
 # Question 25 — Traffic Light System
@@ -388,15 +388,15 @@ Conditions:
 * Otherwise:
   * Print `"Invalid traffic light color"`
 """
-# traffic_light_color = str(input("Enter traffic light color:"))
-# if traffic_light_color == "red":
-#     print("Stop")
-# elif traffic_light_color == "yellow":
-#     print("Get ready")
-# elif traffic_light_color == "green":
-#     print("Go")
-# else:
-#     print("Invalid traffic light color")
+traffic_light_color = str(input("Enter traffic light color:"))
+if traffic_light_color == "red":
+    print("Stop")
+elif traffic_light_color == "yellow":
+    print("Get ready")
+elif traffic_light_color == "green":
+    print("Go")
+else:
+    print("Invalid traffic light color")
 
 """
 # Question 26 — Mobile Recharge Plan System
@@ -413,16 +413,16 @@ Conditions:
 * Otherwise:
   * Print `"Invalid recharge amount"`
 """
-# recharge_amount = float(input("Enter recharge amount:"))
+recharge_amount = float(input("Enter recharge amount:"))
 
-# if recharge_amount == 199:
-#     print("1GB/day plan activated")
-# elif recharge_amount == 399:
-#     print("2GB/day plan activated")
-# elif recharge_amount == 599:
-#     print("Unlimited 5G plan activated")
-# else:
-#     print("Invalid recharge amount")
+if recharge_amount == 199:
+    print("1GB/day plan activated")
+elif recharge_amount == 399:
+    print("2GB/day plan activated")
+elif recharge_amount == 599:
+    print("Unlimited 5G plan activated")
+else:
+    print("Invalid recharge amount")
 
 """
 # Question 27 — Simple Calculator System
@@ -443,20 +443,20 @@ Conditions:
 * Otherwise:
   * Print `"Invalid operator"`
 """
-# num1 = float(input("Enter fisrt number:"))
-# num2 = float(input("Enter second number:"))
-# operator = input("Enter operator (+,-,*,/):")
+num1 = float(input("Enter fisrt number:"))
+num2 = float(input("Enter second number:"))
+operator = input("Enter operator (+,-,*,/):")
 
-# if operator == "+":
-#     print("Addition is",num1+num2)
-# elif operator == "-":
-#     print("Subtraction is",num1-num2)
-# elif operator == "*":
-#     print("Multiplication is",num1*num2)
-# elif operator == "/":
-#     print("Division is",num1/num2)
-# else:
-#     print("Invalid operator")
+if operator == "+":
+    print("Addition is",num1+num2)
+elif operator == "-":
+    print("Subtraction is",num1-num2)
+elif operator == "*":
+    print("Multiplication is",num1*num2)
+elif operator == "/":
+    print("Division is",num1/num2)
+else:
+    print("Invalid operator")
 
 """
 # Question 28 — Online Course Platform
@@ -473,16 +473,16 @@ Conditions:
 * Otherwise:
   * Print `"Course not available"`
 """
-# course_name = str(input("Enter course name:"))
+course_name = str(input("Enter course name:"))
 
-# if course_name == "python":
-#     print("Python course enrolled")
-# elif course_name == "java":
-#     print("Java course enrolled")
-# elif course_name == "web development":
-#     print("Web development course enrolled")
-# else:
-#     print("Course not available")
+if course_name == "python":
+    print("Python course enrolled")
+elif course_name == "java":
+    print("Java course enrolled")
+elif course_name == "web development":
+    print("Web development course enrolled")
+else:
+    print("Course not available")
 
 """
 # Question 29 — Weather Suggestion System
@@ -499,15 +499,15 @@ Conditions:
 * Otherwise:
   * Print `"Weather condition unknown"`
 """
-# weather = str(input("Enter weather condition:"))
-# if weather == "rainy":
-#     print("Take an umbrella")
-# elif weather == "sunny":
-#     print("Wear sunglasses")
-# elif weather == "cold":
-#     print("Wear a jacket")
-# else:
-#     print("Weather condition unknown")
+weather = str(input("Enter weather condition:"))
+if weather == "rainy":
+    print("Take an umbrella")
+elif weather == "sunny":
+    print("Wear sunglasses")
+elif weather == "cold":
+    print("Wear a jacket")
+else:
+    print("Weather condition unknown")
 
 """
 # Question 30 — Online Payment System
@@ -524,15 +524,15 @@ Conditions:
 * Otherwise:
   * Print `"Invalid payment method"`
 """
-# payment_method = str(input("Enter payment method:"))
-# if payment_method == "upi":
-#     print("Payment through UPI")
-# elif payment_method == "card":
-#     print("Payment through Card")
-# elif payment_method == "cash":
-#     print("Cash payment selected")
-# else:
-#     print("Invalid payment method")
+payment_method = str(input("Enter payment method:"))
+if payment_method == "upi":
+    print("Payment through UPI")
+elif payment_method == "card":
+    print("Payment through Card")
+elif payment_method == "cash":
+    print("Cash payment selected")
+else:
+    print("Invalid payment method")
 
 """
 # Question 31 — E-commerce Delivery System
@@ -549,15 +549,15 @@ Conditions:
 * Otherwise:
   * Print `"Invalid delivery type"`
 """
-# delivery = str(input("Enter delivery type:"))
-# if delivery == "standard":
-#     print("Delivery in 5 days")
-# elif delivery == "express":
-#     print("Delivery in 2 days")
-# elif delivery == "same day":
-#     print("Delivery today")
-# else:
-#     print("Invalid delivery type")
+delivery = str(input("Enter delivery type:"))
+if delivery == "standard":
+    print("Delivery in 5 days")
+elif delivery == "express":
+    print("Delivery in 2 days")
+elif delivery == "same day":
+    print("Delivery today")
+else:
+    print("Invalid delivery type")
 
 """
 # Question 32 — Smart Phone Battery System
@@ -574,15 +574,15 @@ Conditions:
 * Otherwise:
   * Print `"Charge your phone immediately"`
 """
-# battery_percentage = float(input("Enter battery percentage:"))
-# if battery_percentage >= 80:
-#     print("Battery is full")
-# elif battery_percentage >= 40:
-#     print("Battery is medium")
-# elif battery_percentage >= 10:
-#     print("Battery is low")
-# else:
-#     print("Charge your phone immediately")
+battery_percentage = float(input("Enter battery percentage:"))
+if battery_percentage >= 80:
+    print("Battery is full")
+elif battery_percentage >= 40:
+    print("Battery is medium")
+elif battery_percentage >= 10:
+    print("Battery is low")
+else:
+    print("Charge your phone immediately")
 
 """
 # Question 33 — Online Exam Result System
@@ -600,15 +600,15 @@ Conditions:
   * Print `"Need Improvement"`
 """
 
-# percentage = float(input("Enter percentage"))
-# if percentage >= 90:
-#     print("Excellent")
-# elif percentage >= 75:
-#     print("Very Good")
-# elif percentage >= 50:
-#     print("Good")
-# else:
-#     print("Need Improvement")
+percentage = float(input("Enter percentage"))
+if percentage >= 90:
+    print("Excellent")
+elif percentage >= 75:
+    print("Very Good")
+elif percentage >= 50:
+    print("Good")
+else:
+    print("Need Improvement")
 
 """
 # Question 34 — Gym Membership System
@@ -625,15 +625,15 @@ Conditions:
 * Otherwise:
   * Print `"Invalid membership type"`
 """
-# membership = str(input("Enter membership type:"))
-# if membership == "silver":
-#     print("Access to gym only")
-# elif membership == "gold":
-#     print("Access to gym and swimming pool")
-# elif membership == "platinum":
-#     print("All facilities available")
-# else:
-#     print("Invalid membership type")
+membership = str(input("Enter membership type:"))
+if membership == "silver":
+    print("Access to gym only")
+elif membership == "gold":
+    print("Access to gym and swimming pool")
+elif membership == "platinum":
+    print("All facilities available")
+else:
+    print("Invalid membership type")
 
 """
 # Question 35 — Train Ticket Booking System
@@ -658,4 +658,5 @@ elif class_type == "ac":
 elif class_type == "general":
     print("General class booked")
 else:
-    print("Invalid class type")
+    print("Invalid class type")/
+
